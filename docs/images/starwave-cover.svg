@@ -14,5 +14,4 @@
 <g transform="translate(352 380)"><rect width="264" height="128" rx="18" fill="#182c42" stroke="#2d465e"/><text x="24" y="42" fill="#5bd8bf" font-size="14">02 / 余额与用量</text><text x="24" y="79" fill="#ecf3fb" font-size="21" font-weight="600">把消费看得更清楚</text><text x="24" y="105" fill="#8fa6bf" font-size="13">每日月历 · 费用估算 · Excel</text></g>
 <g transform="translate(632 380)"><rect width="264" height="128" rx="18" fill="#182c42" stroke="#2d465e"/><text x="24" y="42" fill="#bba2ed" font-size="14">03 / 工作流增强</text><text x="24" y="79" fill="#ecf3fb" font-size="21" font-weight="600">按需开启，保持掌控</text><text x="24" y="105" fill="#8fa6bf" font-size="13">提示词收藏 · 界面开关 · 原版回退</text></g>
 <text x="74" y="580" fill="#8fa6bf" font-size="14">非官方 DeepSeek Harness 定制源码 · 适配 0.2.0-rc.2 · MIT</text>
-<rect x="948" y="396" width="252" height="96" rx="16" fill="#102334" stroke="#325468"/><text x="972" y="432" fill="#e0f2f7" font-size="16">源码发行，不含个人数据</text><text x="972" y="462" fill="#8fa6bf" font-size="12">不适用于桌面插件管理器直接安装</text>
 </g></svg>
