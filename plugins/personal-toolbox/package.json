@@ -1,0 +1,52 @@
+{
+  "name": "@local/dsh-personal-customizations",
+  "version": "1.1.0",
+  "description": "星潮工具箱：模型检测、余额与用量、提示词收藏及配套界面增强",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "src/bundle/index.js",
+  "icon": "./assets/icons/toolbox.svg",
+  "exports": {
+    ".": "./src/bundle/index.js",
+    "./services": "./src/shared/services.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.md",
+    "src",
+    "compat",
+    "config",
+    "assets",
+    "locale",
+    "tools",
+    "tests",
+    "docs",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "check": "node tools/apply.mjs --check",
+    "apply": "node tools/apply.mjs",
+    "test": "node tests/verify-compat-preferences.mjs && node tests/verify-compat-baseline.mjs && node tests/verify-spending-excel.mjs && node tests/verify-source-layout.mjs && node tests/verify-personal-plugin.mjs && node tests/verify-toolbox-branding.mjs",
+    "export:source": "node tools/export-source.mjs"
+  },
+  "toolbox": {
+    "formatVersion": 1,
+    "kind": "harness-local-bundle-source",
+    "compatibleHarness": "0.2.0-rc.2",
+    "components": "config/components.json",
+    "compatibility": "config/patches.json",
+    "output": "../../packages",
+    "registration": "one-time-only"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

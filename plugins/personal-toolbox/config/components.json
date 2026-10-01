@@ -1,0 +1,36 @@
+{
+  "intelligence": {
+    "name": "@local/dsh-personal-intelligence",
+    "title": "智力检测",
+    "icon": "assets/icons/intelligence.svg",
+    "description": "鹈鹕与糖果检测、请求核查、原始预览与历史对照",
+    "host": "applyIntelligence",
+    "client": "src/intelligence/client.js",
+    "inject": ["@deepseek-ai/dsh-client-ui-settings", "@deepseek-ai/dsh-client-locale", "@deepseek-ai/dsh-api-remotes", "@deepseek-ai/dsh-client-ui-sidebar", "@deepseek-ai/dsh-client-ui-conversation", "@deepseek-ai/dsh-client-ui-plugin-manager"]
+  },
+  "balance": {
+    "name": "@local/dsh-personal-balance",
+    "title": "余额与消费",
+    "icon": "assets/icons/balance.svg",
+    "description": "供应商余额查询和现有每日消费账本",
+    "host": "applyBalance",
+    "client": "src/balance/client.js",
+    "inject": []
+  },
+  "spending": {
+    "name": "@local/dsh-personal-spending",
+    "title": "消费总览",
+    "icon": "assets/icons/spending.svg",
+    "description": "按天查看供应商消费、模型用量与费用估算",
+    "host": "applySpendingHost",
+    "client": "src/spending/client.js",
+    "inject": ["@deepseek-ai/dsh-client-ui-plugin-manager"]
+  },
+  "prompts": {
+    "name": "@local/dsh-client-ui-prompt-presets",
+    "title": "常用提示词",
+    "client": "src/prompts/client.js",
+    "sourceHost": "src/prompts/host.js",
+    "description": "输入框常用提示词，保留本机收藏"
+  }
+}

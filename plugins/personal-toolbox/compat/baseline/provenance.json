@@ -1,0 +1,45 @@
+{
+    "description":  "Unmodified official npm client bundles used when UI enhancements are disabled",
+    "files":  [
+                  {
+                      "version":  "0.2.0-rc.2",
+                      "license":  "MIT",
+                      "file":  "model-selection.js",
+                      "package":  "@deepseek-ai/dsh-client-ui-model-selection",
+                      "licenseSha256":  "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be",
+                      "tarball":  "https://registry.npmjs.org/@deepseek-ai/dsh-client-ui-model-selection/-/dsh-client-ui-model-selection-0.2.0-rc.2.tgz",
+                      "integrity":  "sha512-fL6Iyirvk4xOMjbioguxv3E/iAf4AlfqnA9WhEPwdK/0wV7StMKhuAcZkbz2o3kEFHBE98yroyzrbM//yJv4ow==",
+                      "sha256":  "2ca82227074f2d78f15588364368d27e4d58b1abcd7f9fc01f368fab64bc6696"
+                  },
+                  {
+                      "version":  "0.2.0-rc.2",
+                      "license":  "MIT",
+                      "file":  "models.js",
+                      "package":  "@deepseek-ai/dsh-client-ui-settings-models",
+                      "licenseSha256":  "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be",
+                      "tarball":  "https://registry.npmjs.org/@deepseek-ai/dsh-client-ui-settings-models/-/dsh-client-ui-settings-models-0.2.0-rc.2.tgz",
+                      "integrity":  "sha512-vZVCHW1PYaPOhlunGL771e2WfkN023CTvZ7ZeiTWX6vkiDloUPCAMCjCl0e/xkbtgSMGvVjquuqGluwxqqIShQ==",
+                      "sha256":  "7674ed0ba2eef60fa7db91b4bf8cea4dc23e1f0a2f3dd1e6a2a67ad4c0d005fa"
+                  },
+                  {
+                      "version":  "0.2.0-rc.2",
+                      "license":  "MIT",
+                      "file":  "skills.js",
+                      "package":  "@deepseek-ai/dsh-client-ui-skill",
+                      "licenseSha256":  "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be",
+                      "tarball":  "https://registry.npmjs.org/@deepseek-ai/dsh-client-ui-skill/-/dsh-client-ui-skill-0.2.0-rc.2.tgz",
+                      "integrity":  "sha512-WJ991QnG+V5Lc9rkpexlgDShO8kCGva0K3mc+VI+6BRJ5tRE6ZFf0hutCax6iyUz/gtaFsxoYs615Uw2jas6sQ==",
+                      "sha256":  "eaa0c9e01d69305e80c37772aae7abd661476ae9c8c5bc942bc0f8ba335dc36a"
+                  },
+                  {
+                      "version":  "0.2.0-rc.2",
+                      "license":  "MIT",
+                      "file":  "sessions.js",
+                      "package":  "@deepseek-ai/dsh-client-ui-workspace",
+                      "licenseSha256":  "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be",
+                      "tarball":  "https://registry.npmjs.org/@deepseek-ai/dsh-client-ui-workspace/-/dsh-client-ui-workspace-0.2.0-rc.2.tgz",
+                      "integrity":  "sha512-dGKLOFJXBiGDKl+qWMQ0cYF0AT485JMzSk+AUM6/81tZPapJuirxP7Yf5ZFMfsmgQFv6m4jjYlnOc6KcIfUUZQ==",
+                      "sha256":  "e784543780fb8ac7c38c853afd26b9b1713c6907eec2b07eff37461e07bd3be9"
+                  }
+              ]
+}

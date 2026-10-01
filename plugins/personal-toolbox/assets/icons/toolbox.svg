@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="starwave-bg" x1="8" y1="6" x2="57" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102D46"/><stop offset="1" stop-color="#162142"/>
+    </linearGradient>
+    <linearGradient id="starwave-orbit" x1="12" y1="48" x2="53" y2="17" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39D7CF"/><stop offset=".55" stop-color="#63BDFF"/><stop offset="1" stop-color="#9C96FF"/>
+    </linearGradient>
+    <linearGradient id="starwave-star" x1="25" y1="20" x2="39" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#BCEFFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="url(#starwave-bg)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="17.5" stroke="#7BD5FF" stroke-opacity=".22"/>
+  <ellipse cx="32" cy="34" rx="23" ry="11" transform="rotate(-32 32 34)" stroke="url(#starwave-orbit)" stroke-width="2.8"/>
+  <path d="M32 18L36.5 27.5L46 32L36.5 36.5L32 46L27.5 36.5L18 32L27.5 27.5L32 18Z" fill="url(#starwave-star)"/>
+  <circle cx="50" cy="19" r="3.5" fill="#74D8FF"/>
+  <circle cx="14" cy="49" r="2" fill="#44D4CB"/>
+  <path d="M18 16V21M15.5 18.5H20.5" stroke="#BDCEFF" stroke-width="1.7" stroke-linecap="round" opacity=".7"/>
+</svg>

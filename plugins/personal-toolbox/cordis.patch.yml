@@ -1,0 +1,10 @@
+# Stable row IDs preserve the existing component enablement overrides.
+- insert:
+    - id: personal-customizations
+      name: '@local/dsh-personal-intelligence'
+    - id: personal-balance
+      name: '@local/dsh-personal-balance'
+    - id: personal-spending
+      name: '@local/dsh-personal-spending'
+    - id: ui-prompt-presets
+      name: '@local/dsh-client-ui-prompt-presets'
