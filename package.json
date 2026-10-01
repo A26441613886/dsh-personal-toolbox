@@ -1,0 +1,15 @@
+{
+  "name": "dsh-personal-toolbox-source",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Unofficial version-bound DeepSeek Harness customization source",
+  "scripts": {
+    "check:source": "node tools/check-public-source.mjs",
+    "test": "node tools/check-public-source.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

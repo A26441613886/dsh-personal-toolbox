@@ -1,0 +1,34 @@
+# Runtime/install outputs
+node_modules/
+packages/
+output/
+dist/
+coverage/
+*.zip
+*.tgz
+
+# User configuration, credentials and ledgers
+.env
+.env.*
+!.env.example
+.dsh/
+profiles/
+credentials/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+balance-history*.json
+settings.yaml*
+backup-*/
+**/intelligence-tests/
+
+# Local machine files
+*.log
+*.err
+*.tmp
+*.personal-tmp
+.DS_Store
+Thumbs.db
+.playwright-cli/
+_sessions_txt*/

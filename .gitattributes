@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.svg text eol=lf
+# Keep official baseline bytes exact for provenance SHA-256 validation.
+plugins/personal-toolbox/compat/baseline/*.js -text
+plugins/personal-toolbox/compat/baseline/LICENSE -text
