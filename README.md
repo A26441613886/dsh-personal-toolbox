@@ -47,21 +47,19 @@
 
 ![智力检测预览模式](docs/images/intelligence-preview.png)
 
-### 请求核查与历史证据
-
-请求核查把请求情况、响应状态、耗时、重试、保存位置和重复内容检查集中展示；技术详情默认折叠，排查问题时再展开。
-
-![智力检测请求核查](docs/images/request-evidence.png)
-
 ### 模型选择与命名密钥
 
 模型选择器按 **DeepSeek → 命名密钥 → 模型** 分组，支持搜索。模型设置页把每个密钥绑定的模型单独列出，便于区分同一模型的不同密钥线路。
 
 ![检测模型选择器](docs/images/model-picker.png)
 
-![按命名密钥分组的模型设置](docs/images/models.png)
-
 ![命名密钥管理](docs/images/named-keys.png)
+
+### 思考强度
+
+思考强度提供无、低、中等、高、极高、最大六档，按当前模型保存；选择“无”时不发送思考参数。
+
+![DeepSeek 思考强度滑条](docs/images/reasoning-slider.png)
 
 ### 余额查询与每日消费
 
@@ -74,14 +72,6 @@
 消费总览提供余额变化、模型 token 用量、单价配置、月历明细和趋势图。Excel 导出包含每日汇总、余额明细、模型用量、余额读数、单价与统计设置等分类工作表。
 
 ![消费总览](docs/images/spending-demo.png)
-
-### 常用提示词
-
-常用提示词从输入框旁打开：可以新增、编辑、删除和选择收藏内容；选择后只填入输入框，不会自动发送。
-
-![常用提示词列表](docs/images/prompts-list.png)
-
-![常用提示词编辑](docs/images/prompts-edit.png)
 
 ## 源码布局
 
